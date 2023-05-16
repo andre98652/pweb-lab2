@@ -27,6 +27,7 @@ function votesCouting(votes){
     for(let i=0;i<votes.length;i++){
         if(menor<votes[i].votes){
             win=i;
+            menor=votes[i].votes;
         }
 
     }
