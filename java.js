@@ -11,3 +11,24 @@ function arrayGenerator(n,min,max){
     }
     return a;
 }
+
+console.log("\n\nPrueba 2");
+
+let votes =[
+    {id:1, votes:10},
+    {id:2, votes:30},
+    {id:3, votes:15},
+    {id:4, votes:8}
+];
+
+function votesCouting(votes){
+    let win=0;
+    let menor=votes[0].votes;
+    for(let i=1;i<votes.length;i++){
+        if(menor<votes[i].votes){
+            win=i;
+        }
+
+    }
+    return votes[i];
+}
