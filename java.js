@@ -32,3 +32,4 @@ function votesCouting(votes){
     }
     return votes[i];
 }
+console.log(votesCouting(votes));
