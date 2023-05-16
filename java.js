@@ -30,6 +30,6 @@ function votesCouting(votes){
         }
 
     }
-    return votes[i];
+    return votes[win];
 }
 console.log(votesCouting(votes));
